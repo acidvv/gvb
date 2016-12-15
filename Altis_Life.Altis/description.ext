@@ -25,13 +25,6 @@ class CfgFunctions {
     #include "Functions.hpp"
 };
 
-class cfgMusic{ 
-    class intro {  
-	    name = "intro";
-	    sound = {"IntroSong.ogg", db+1,1}; 
-    };
-};
-
 class CfgSounds {
     sounds[] = {};
     class SirenLong {
